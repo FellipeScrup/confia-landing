@@ -137,14 +137,12 @@ export default function ConfiaLandingPage() {
               App
             </a>
             <a
-              href="#download"
-              onClick={(e) => {
-                e.preventDefault();
-                scrollTo("download");
-              }}
+              href="https://calendly.com/guilhermewaizbart/30min"
               className="bg-[#8b5cf6] hover:bg-[#a78bfa] px-3 md:px-4 py-2 rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white text-white font-medium shadow-lg text-sm"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Download
+              Agende uma demonstração
             </a>
           </nav>
 
@@ -202,14 +200,12 @@ export default function ConfiaLandingPage() {
                 App
               </a>
               <a
-                href="#download"
-                onClick={(e) => {
-                  e.preventDefault();
-                  scrollTo("download");
-                }}
+                href="https://calendly.com/guilhermewaizbart/30min"
                 className="bg-[#8b5cf6] hover:bg-[#a78bfa] px-4 py-2.5 sm:py-3 rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white text-white font-medium text-center text-sm sm:text-base"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Download
+                Agende uma demonstração
               </a>
             </nav>
           </motion.div>
@@ -464,10 +460,12 @@ export default function ConfiaLandingPage() {
           transition={{ delay: 0.2 }}
         >
           <a
-            href="#"
+            href="https://calendly.com/guilhermewaizbart/30min"
             className="inline-flex items-center gap-3 bg-[#8b5cf6] hover:bg-[#a78bfa] focus:bg-[#a78bfa] active:bg-[#7c3aed] transition-all duration-200 px-5 sm:px-6 lg:px-8 py-2.5 sm:py-3 lg:py-4 rounded-full shadow-2xl text-white text-sm xs:text-base sm:text-lg font-semibold focus:outline-none focus:ring-4 focus:ring-[#8b5cf6]/50 transform hover:scale-105 focus:scale-105"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Baixar agora
+            Agende uma demonstração
           </a>
         </motion.div>
       </section>
