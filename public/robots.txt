@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+# Host
+Host: https://useconfia.com.br
+
+# Sitemaps
+Sitemap: https://useconfia.com.br/sitemap.xml

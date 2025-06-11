@@ -224,7 +224,7 @@ export default function ConfiaLandingPage() {
           alt="Confia! Logo"
           className="w-48 h-48 xs:w-60 xs:h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-[450px] xl:h-[450px] object-contain mb-6 sm:mb-8 lg:mb-12 drop-shadow-xl"
         />
-        <motion.h2
+        <motion.h1
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2 }}
@@ -232,7 +232,7 @@ export default function ConfiaLandingPage() {
         >
           Sua denúncia protegida.
           <br className="hidden xs:block" /> Sua voz faz a diferença.
-        </motion.h2>
+        </motion.h1>
         <motion.p
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -346,9 +346,8 @@ export default function ConfiaLandingPage() {
                       src={screenshot.src}
                       alt={screenshot.alt}
                       loading="lazy"
-                      className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ease-in-out ${
-                        index === currentSlide ? "opacity-100" : "opacity-0"
-                      }`}
+                      className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ease-in-out ${index === currentSlide ? "opacity-100" : "opacity-0"
+                        }`}
                     />
                   ))}
                 </div>
@@ -377,11 +376,10 @@ export default function ConfiaLandingPage() {
                 <button
                   key={index}
                   onClick={() => setCurrentSlide(index)}
-                  className={`w-2 h-2 sm:w-2.5 sm:h-2.5 lg:w-3 lg:h-3 rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#8b5cf6] ${
-                    index === currentSlide
-                      ? "bg-[#8b5cf6] scale-110"
-                      : "bg-white/30 hover:bg-white/50"
-                  }`}
+                  className={`w-2 h-2 sm:w-2.5 sm:h-2.5 lg:w-3 lg:h-3 rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#8b5cf6] ${index === currentSlide
+                    ? "bg-[#8b5cf6] scale-110"
+                    : "bg-white/30 hover:bg-white/50"
+                    }`}
                   aria-label={`Ir para imagem ${index + 1}`}
                 />
               ))}
